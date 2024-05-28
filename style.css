@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(painting-mountain-lake-with-mountain-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  background-color: rgba(235, 223, 209, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 50%;
+  padding: 40px;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+#password,
+#leave-comment,
+#reference,
+#name,
+#email {
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid;
+  border-left: 0px;
+  background-color: unset;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+}
